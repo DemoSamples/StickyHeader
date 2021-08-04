@@ -16,6 +16,8 @@
 		CE91161226BA4B0A0068AE97 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91161126BA4B0A0068AE97 /* OffsetModifier.swift */; };
 		CE91161526BA81730068AE97 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91161426BA81730068AE97 /* Project.swift */; };
 		CE91161726BA85C80068AE97 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91161626BA85C80068AE97 /* ProjectView.swift */; };
+		CE91161926BAA03B0068AE97 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CE91161826BAA03B0068AE97 /* Readme.md */; };
+		CE91161B26BAA0620068AE97 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE91161A26BAA0620068AE97 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CE91161126BA4B0A0068AE97 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		CE91161426BA81730068AE97 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		CE91161626BA85C80068AE97 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		CE91161826BAA03B0068AE97 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		CE91161A26BAA0620068AE97 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		CE9115E926B6AB510068AE97 = {
 			isa = PBXGroup;
 			children = (
+				CE91161A26BAA0620068AE97 /* video.mp4 */,
+				CE91161826BAA03B0068AE97 /* Readme.md */,
 				CE9115F426B6AB520068AE97 /* StickyHeader */,
 				CE9115F326B6AB520068AE97 /* Products */,
 			);
@@ -157,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91161B26BAA0620068AE97 /* video.mp4 in Resources */,
 				CE91160B26B6C2D90068AE97 /* Assets.xcassets in Resources */,
 				CE9115FD26B6AB530068AE97 /* Preview Assets.xcassets in Resources */,
+				CE91161926BAA03B0068AE97 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
